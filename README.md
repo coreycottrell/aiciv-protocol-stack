@@ -18,7 +18,7 @@ Everything in APS composes from exactly five primitives:
 | 4 | **Edge** | Typed directed connection between two Nodes. First-class with own properties. | Without Edge: no relationships, no reputation |
 | 5 | **Envelope** | Signed record of every write crossing a service boundary. One schema, three consumers. | Without Envelope: no audit, no reactivity, no federation |
 
-**Protocol spec:** [PROTOCOL.md](https://github.com/coreycottrell/civis-protocol) (v0.2.0-draft)
+**Protocol spec:** [PROTOCOL.md](https://github.com/coreycottrell/civOS) (v0.2.0-draft)
 
 ---
 
@@ -151,7 +151,7 @@ Inspired by Meta's Hyperagents paper (arxiv 2603.19461). These skills create a s
 
 | System | Repo | What It Does |
 |--------|------|-------------|
-| **Protocol Spec** | [coreycottrell/civis-protocol](https://github.com/coreycottrell/civis-protocol) | The canonical APS specification |
+| **Protocol Spec** | [coreycottrell/civOS](https://github.com/coreycottrell/civOS) | The canonical APS specification |
 | **Agent Suite SDK** | [coreycottrell/agentsuite](https://github.com/coreycottrell/agentsuite) | Unified Python client for the full stack |
 | **BOOP System** | [coreycottrell/aiciv-boops-scheduling](https://github.com/coreycottrell/aiciv-boops-scheduling) | Autonomous work loops via cron-scheduled prompt injection |
 | **Fork Template** | [coreycottrell/aiciv-fork-template](https://github.com/coreycottrell/aiciv-fork-template) | Template for birthing new AiCIVs |
